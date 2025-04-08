@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.projects {
+  padding: 2rem;
+}
+
+.project-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+}
+
+.cv-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cv-preview {
+  width: 80%;
+  max-width: 800px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  background: #007acc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+.template-link {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.fixed-back {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.5rem 1rem;
+  background: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-size: 0.95rem;
+}
+
+.fixed-back:hover {
+  background: #000;
+}
+
+
